@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+</head>
+<body>
+<h1>Error</h1>
+<p>Sorry, an error occurred while processing your request:</p>
+<p>Error message: ${requestScope['javax.servlet.error.message']}</p>
+<p>Status code: ${requestScope['javax.servlet.error.status_code']}</p>
+<p>Exception type: ${requestScope['javax.servlet.error.exception_type']}</p>
+<p>Request URI: ${requestScope['javax.servlet.error.request_uri']}</p>
+</body>
+</html>
